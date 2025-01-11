@@ -9,4 +9,5 @@ venv/
 # Archivos y carpetas estáticos generados
 staticfiles/
 
-README.md".env" 
+README.md
+"db.sqlite3" 
