@@ -1,0 +1,526 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Porfolio Ivan Carpio{% endblock %}</title>
+	<link rel="stylesheet" href="{% static 'bootstrap.css' %}">
+	<link rel="stylesheet" href="{% static 'animate.css' %}">
+	<link rel="stylesheet" href="{% static 'style.css' %}">
+	<!-- CDN de Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url('{% static 'images/cover_bg_3.jpg' %}');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url('{% static 'images/user-3.jpg' %}');"></div>
+							<h1><span>Iván Carpio</span></h1>
+							<h3><span>Web and App Developer / Database administrator</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="https://github.com/icarpio"><i class="fab fa-github"></i> </i></a></li>
+									<li><a href="https://www.linkedin.com/in/ivan-carpio-guijarro/"><i class="fab fa-linkedin"></i> </i></a></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Datos de contacto</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Iván Carpio Guijarro</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">652875205</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">ivancg24@gmail.com</span></li>
+					    <!--
+						<li><span class="first-block">Address:</span><span class="second-block">198 West 21th Street, Suite 721 New York NY 10016</span></li>
+						-->
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hola a todos!</h2>
+					<p>Soy desarrollador de aplicaciones web y móviles con experiencia en el diseño y desarrollo de soluciones personalizadas que combinan funcionalidad, usabilidad y escalabilidad.</p>
+					<p>Experencia en la gestión de bases de datos relacionales y no relacionales, asegurando la integridad, disponibilidad y seguridad de la información.</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://github.com/icarpio"><i class="fab fa-github"></i> </i></a></li>
+							<li><a href="https://www.linkedin.com/in/ivan-carpio-guijarro/"><i class="fab fa-linkedin"></i> </i></a></li>
+							<!--<li><a href="#"><i class="icon-linkedin2"></i></a></li>-->
+
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			
+			<div class="row">
+				
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Experencia laboral</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Help Desk - Gestión de incidencias (Vodafone)</h3>
+									<span class="company">Accenture, Junio 2020 – Abril 2024</span>
+								</div>
+								<div class="timeline-body">
+									<p>Soporte técnico de aplicaciones y usuarios de Vodafone con Remedy.</p>
+									<p>Consultas en SQLDeveloper para identificar y cuantificar el total de clientes afectados por las incidencias.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Desarrollador Web Full Stack </h3>
+									<span class="company">Accenture, Enero 2020 - Junio 2020 </span>
+								</div>
+								<div class="timeline-body">
+									<p>Desarrollo backend utilizando Django y MySQL.</p>
+									<p>Implementación de frontend con Angular.</p>
+									<p>Participación en el desarrollo de una aplicación web para la gestión de incidencias. </p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Help Desk - Gestión de incidencias (Vodafone)</h3>
+									<span class="company">Accenture, Julio 2019 - Enero 2020</span>
+								</div>
+								<div class="timeline-body">
+									<p>Soporte técnico de aplicaciones y usuarios de Vodafone con Remedy asegurando la resolución eficiente de incidencias y la continuidad operativa.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									
+									<h3 class="timeline-title">Atención al Cliente / Control de Calidad (MoviStar) </h3>
+									<span class="company">Elecnor, Madrid, Noviembre 2014 - Noviembre 2015</span>
+								</div>
+								<div class="timeline-body">
+									<p>Verificación telefónica de la calidad del servicio prestado por MoviStar.</p>
+									<p>Atención al cliente para resolución de incidencias y mejora del servicio. </p>
+								</div>
+							</div>
+						</li>
+						<br>
+						
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Formación academica</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Administración de base de datos oracle19c cloud</h3>
+									<span class="company">CasTraining Madrid, 2024</span>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Desarrollo de aplicaciones para dispositivos móviles (Android e IOS).</h3>
+									<span class="company">CasTraining Madrid, 2024</span>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Formación en Java SE, EE, Jdbc, MySQL Spring Boot, Angular. Lucatic 2019 </h3>
+									<span class="company">Lucatic, Madrid, 2019 </span>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Desarrollo de videojuegos y realidad virtual con Unity y C#.</h3>
+									<span class="company"> CTIC Getafe/CICE. 2018.</span>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Desarrollador Spark Big Data Cloudera. SQL, Python, Scala, Spark & Hadoop </h3>
+									<span class="company">CTIC Getafe/Cloudera. 2018. </span>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Curso programación orientada a objetos con Python. (AEPI) 2018. </h3>
+									<span class="company"> (AEPI) Madrid, 2018. </span>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Analista Java de aplicaciones empresariales. </h3>
+									<span class="company">(AEPI) Madrid, 2017. </span>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Grado superior en Producción de audiovisuales, Radio y Espectáculos.</h3>
+									<span class="company"> Toledo. 2014 </span>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bachillerato humanidades y ciencias sociales</h3>
+									<span class="company">IES Miguel Cervantes, Alcazar de san Juan,2012. </span>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<div class="row row-pb-md">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>Python</strong>70%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>Django</strong>70%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>HTML5</strong>70%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>CSS3</strong>70%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="60"><span><strong>MySQL</strong>60%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="60"><span><strong>PostgreSQL</strong>60%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="60"><span><strong>AngularJS</strong>60%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>Kotlin</strong>70%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="70"><span><strong>Java</strong>70%</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">70%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">AngularJS</span><span class="value-right">70%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Java</span><span class="value-right">70%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Kotlin</span><span class="value-right">70%</span></h3>
+						<div class="progress">
+							<div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+								 aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">PostgreSQL</span><span class="value-right">60%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">MySQL</span><span class="value-right">60%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Python</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Django</span><span class="value-right">75%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Proyectos</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://postify-e8y6.onrender.com" class="work" style="background-image: url('{% static 'images/portfolio-1.jpg' %}');">
+						<div class="desc">
+							<h3>Postify</h3>
+							<span>Web Responsive</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url('{% static 'images/portfolio-2.jpg' %}');">
+						<div class="desc">
+							<h3>Huella Amiga</h3>
+							<span>Web</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://pang-django-phaser.onrender.com" class="work" style="background-image: url('{% static 'images/portfolio-3.jpg' %}');">
+						<div class="desc">
+							<h3>Pang clone</h3>
+							<span>Game Web</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url('{% static 'images/portfolio-4.jpg' %}');">
+						<div class="desc">
+							<h3>Porfolio</h3>
+							<span>Web Responsive</span>
+						</div>
+					</a>
+				</div>
+			    <!--
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url('{% static 'images/portfolio-1.jpg' %}');">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Website</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url('{% static 'images/portfolio-6.jpg' %}');">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url('{% static 'images/portfolio-1.jpg' %}');">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Brading</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url('{% static 'images/portfolio-8.jpg' %}');">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				--> 
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate__animated animate__fadeIn">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2>Post on Medium</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 animate__animated animate__fadeIn">
+					<div class="fh5co-blog">
+						<a href="#" class="blog-bg" style="background-image: url('{% static 'images/cover_bg_3.jpg' %}');"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Photoshoot On The Street</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li>249 Likes</li>
+								<li>308 Views</li>
+								<li><a href="#">Read More <i class="fa fa-arrow-right"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4 animate__animated animate__fadeIn">
+					<div class="fh5co-blog">
+						<a href="#" class="blog-bg" style="background-image: url('{% static 'images/cover_bg_3.jpg' %}');"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Surfing at Philippines</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li>249 Likes</li>
+								<li>308 Views</li>
+								<li><a href="#">Read More <i class="fa fa-arrow-right"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4 animate__animated animate__fadeIn">
+					<div class="fh5co-blog">
+						<a href="#" class="blog-bg" style="background-image: url('{% static 'images/cover_bg_3.jpg' %}');"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Surfing at Philippines</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li>249 Likes</li>
+								<li>308 Views</li>
+								<li><a href="#">Read More <i class="fa fa-arrow-right"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="fh5co-started" class="fh5co-bg-dark">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Hire me!</h2>
+					<p>Desarrollador de aplicaciones web, móviles y administrador de bases de datos con una sólida experiencia en la creación de soluciones tecnológicas eficientes y seguras.</p>
+					<!--<p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div id="fh5co-consult">
+    <div class="video fh5co-video" style="background-image: url('{% static 'images/cover_bg_3.jpg' %}');">
+        <div class="overlay"></div>
+    </div>
+    <div class="choose animate-box">
+        <h2>Contact</h2>
+        <form method="post" action=".">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary">
+            </div>
+        </form>	
+    
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2025 CV Online Iván Carpio. Todos los derechos reservados.</p>
+    </footer>
+		<!-- jQuery -->
+		<script src="{% static 'jquery.min.js' %}"></script>
+		<!-- jQuery Easing -->
+		<script src="{% static 'jquery.easing.1.3.js' %}"></script>
+		<!-- Bootstrap -->
+		<script src="{% static 'bootstrap.min.js' %}"></script>
+		<!-- Waypoints -->
+		<script src="{% static 'jquery.waypoints.min.js' %}"></script>
+		<!-- Stellar Parallax -->
+		<script src="{% static 'jquery.stellar.min.js' %}"></script>
+		<!-- Easy PieChart -->
+		<script src="{% static 'jquery.easypiechart.min.js' %}"></script>
+
+    	<script src="{% static 'main.js' %}"></script>
+</body>
+</html>
