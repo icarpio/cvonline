@@ -2,7 +2,8 @@ from django.shortcuts import render
 from django.core.mail import send_mail
 from django.shortcuts import render
 from .forms import ContactForm
-import os
+    
+
 
 def index(request):
     success = False  # Inicializar variable de éxito
@@ -40,5 +41,6 @@ def index(request):
     
 
     return render(request, 'landingpage/index.html', {'form': form, 'success': success})
+
 
 
