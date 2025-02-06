@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: rgba(11, 196, 209, 0.9);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  background: #f77f00;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -1107,7 +1107,7 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #FF9000;
+  background: #062488;
   color: #fff;
   border: 2px solid #FF9000;
 }
